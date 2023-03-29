@@ -1,7 +1,7 @@
 {
   "name": "budgetapp",
   "version": "1.0.0",
-  "description": "",
+  "description": "BudgetApp BudgetApp är i grunden en bak- och front-end (i Node.js respektive React) applikation för budgethantering. Vi har lagt till inloggnings-, utloggnings- och autentiseringsmoduler, samt bakänds-funktioner för att skapa, uppdatera, visa och radera inkomster och utgifter. Användare kan även se totala inkomster och utgifter.",
   "main": "index.js",
   "scripts": {
     "start": "node src/server.js"
@@ -26,5 +26,14 @@
   },
   "devDependencies": {
     "parcel": "^2.8.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bryaro/BudgetAPI.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Bryaro/BudgetAPI/issues"
+  },
+  "homepage": "https://github.com/Bryaro/BudgetAPI#readme"
 }
